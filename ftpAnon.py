@@ -15,7 +15,7 @@ def anonLogin(hostname):
         return False
         
 def main():
-    parser = argparse.ArgumentParser(description='uses pxssh from pexpect to ssh brute forcing')
+    parser = argparse.ArgumentParser(description='attempts ftp anonymous logon')
     parser.add_argument('-t', '--tgt', dest='tgtHost', type=str, required=False, help='provide a target url, or address example: www.website.com')
     parser.add_argument('-v', '--version', dest='ver', required=False, action='store_true', help='display version number.')
     args = parser.parse_args()
