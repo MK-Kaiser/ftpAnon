@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# Author: Mark Kaiser
+# Date: 03/08/2020
+# Description: Ftp anonymous login checker.
 
 import ftplib, argparse
 
